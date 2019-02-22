@@ -9,6 +9,7 @@ public class Programmer {
     private Integer id;
     private String name;
     private Double salary;
+
     /**
      * 明祥写构造
      */
@@ -27,41 +28,49 @@ public class Programmer {
         return Objects.hash(id, name, salary);
     }
 
-
-    /**
-     * 阳哥重写equals()
-     *
-     */
-
-    /**
-     * 高茂恒写get set  不能使用快捷键
-     */
-    public Integer getId() {
-        return id;
+    public Programmer() {
     }
 
-    public void setId(Integer id) {
+    public Programmer(Integer id, String name, Double salary) {
+        super();
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
-    }
-
-    public Double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Double salary) {
         this.salary = salary;
     }
+
+        /**
+         * 阳哥重写equals()
+         */
+
+        /**
+         * 高茂恒写get set  不能使用快捷键
+         */
+        public Integer getId () {
+            return id;
+        }
+
+        public void setId (Integer id){
+            this.id = id;
+        }
+
+        public String getName () {
+            return name;
+        }
+
+        public void setName (String name){
+            this.name = name;
+        }
+
+        public Double getSalary () {
+            return salary;
+        }
+
+        public void setSalary (Double salary){
+            this.salary = salary;
+        }
 /**
-     * 科蜜酌情补充
-     */
+ * 科蜜酌情补充
+ */
 
 
     /**
@@ -69,3 +78,4 @@ public class Programmer {
  */
 
 }
+    }
