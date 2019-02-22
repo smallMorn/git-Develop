@@ -45,12 +45,13 @@ public class Programmer {
     public int hashCode() {
         return Objects.hash(old, length, face);
     }
-/**
+
+    /**
      * 高茂恒写get set  不能使用快捷键
      */
-public int getOld() {
-    return old;
-}
+    public int getOld() {
+        return old;
+    }
 
     public void setOld(int old) {
         this.old = old;
