@@ -7,6 +7,7 @@ public class LMX {
 
 
     //水电费
+    //水电费
     public LMX() {
     }
 
