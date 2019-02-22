@@ -20,6 +20,7 @@ public class LMX {
         return name;
     }
 
+    //时代发生的家乐福
     public void setName(String name) {
         this.name = name;
     }
