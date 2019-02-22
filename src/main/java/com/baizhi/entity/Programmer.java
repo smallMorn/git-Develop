@@ -29,8 +29,12 @@ public class Programmer {
      */
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Programmer)) return false;
+        if (this == o) {
+            return true;
+        }
+        if (!(o instanceof Programmer)) {
+            return false;
+        }
         Programmer that = (Programmer) o;
         return old == that.old &&
                 length == that.length &&
@@ -44,9 +48,30 @@ public class Programmer {
 /**
      * 高茂恒写get set  不能使用快捷键
      */
+public int getOld() {
+    return old;
+}
 
+    public void setOld(int old) {
+        this.old = old;
+    }
 
-    /**
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public String getFace() {
+        return face;
+    }
+
+    public void setFace(String face) {
+        this.face = face;
+    }
+/**
      * 科蜜酌情补充
      */
 
