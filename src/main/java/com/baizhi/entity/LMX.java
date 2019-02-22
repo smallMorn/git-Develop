@@ -4,7 +4,7 @@ public class LMX {
 
     private String name = "爸爸";
 
-
+    //水电费
     public LMX() {
     }
 
