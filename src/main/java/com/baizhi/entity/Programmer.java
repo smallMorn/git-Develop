@@ -10,6 +10,20 @@ public class Programmer {
     /**
      * 明祥写构造
      */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Programmer)) return false;
+        Programmer that = (Programmer) o;
+        return Objects.equals(id, that.id) &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(salary, that.salary);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, salary);
+    }
     public Programmer (){}
     public Programmer(Integer id,String name,Double salary){
         super();
@@ -17,7 +31,6 @@ public class Programmer {
         this.name=name;
         this.salary=salary;
 
-    }
 
     /**
      * 阳哥重写equals()
