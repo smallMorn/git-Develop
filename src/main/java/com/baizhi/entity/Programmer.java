@@ -10,7 +10,16 @@ public class Programmer {
     /**
      * 明祥写构造
      */
+    public Programmer() {
 
+    }
+
+    public Programmer(int old, int length, String face) {
+        super();
+        this.old = old;
+        this.length = length;
+        this.face = face;
+    }
 
     /**
      * 阳哥重写equals()
