@@ -74,5 +74,8 @@ public int getOld() {
 /**
      * 科蜜酌情补充
      */
+public static void main(String[] args) {
+    System.out.println("我写尼玛卖批");
+}
 
 }
