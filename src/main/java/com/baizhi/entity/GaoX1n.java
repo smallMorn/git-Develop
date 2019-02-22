@@ -39,4 +39,10 @@ public class GaoX1n {
     public void setExperience(String experience) {
         this.experience = experience;
     }
+
+    public void test(){
+        System.out.println("我是你爸爸");
+    }
+
+
 }
