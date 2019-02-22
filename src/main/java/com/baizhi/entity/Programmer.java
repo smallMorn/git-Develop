@@ -10,7 +10,13 @@ public class Programmer {
     /**
      * 明祥写构造
      */
-
+    public Programmer (){}
+    public Programmer(Integer id,String name,Double salary){
+        super();
+        this.id=id;
+        this.name=name;
+        this.salary=salary;
+    }
 
     /**
      * 阳哥重写equals()
