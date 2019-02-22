@@ -11,5 +11,6 @@ public class Dog {
     private int id;
     private String name;
     private char sex;
+    private int a;
     private int aaaa;
 }
