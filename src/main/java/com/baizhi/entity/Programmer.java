@@ -4,8 +4,9 @@ public class Programmer {
     /**
      * 深圳写属性
      */
-
-
+    private Integer id;
+    private String name;
+    private Double salary;
     /**
      * 明祥写构造
      */
