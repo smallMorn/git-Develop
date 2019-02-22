@@ -36,7 +36,5 @@ public class GaoX1n {
         return experience;
     }
 
-    public void setExperience(String experience) {
-        this.experience = experience;
-    }
+
 }
